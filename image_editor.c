@@ -14,7 +14,7 @@ int main(void)
 	selectie sel; // si selectia
 	sel.exist = 0;
 	while (1) {
-		fgets(s, NMAX, stdin); // vom citi rand
+		fgets(s, NMAX, stdin); // vom citi rand cu rand
 		int posrand = 0; // din stdin si vom
 		char aux[NMAX]; // parsa primul cuvant din
 		bool amop = 0; // fiecare rand
